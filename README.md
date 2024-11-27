@@ -52,15 +52,17 @@ This University Management System is a MERN Stack-based application offering sep
 4. 
   - ## In frontend
    .env   
-      REACT_APP_APILINK = http://localhost:5000/api
-       REACT_APP_MEDIA_LINK = http://localhost:5000/media
-
+   ```bash
+   REACT_APP_APILINK = http://localhost:5000/api
+   REACT_APP_MEDIA_LINK = http://localhost:5000/media
+   ```
   - ## In backend
   .env
-   MONGODB_URI =mongodb+srv://20ucs093:123456karan@cluster0.xsrq2e6.mongodb.net/? 
-    retryWrites=true&w=majority&appName=Cluster0
+   ```bash
+   MONGODB_URI = mongodb+srv://sardaraj1211:hgzojxC2pNTJh6jF@cluster0.r8btj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
    PORT = 5000
    FRONTEND_API_LINK = http://localhost:3000
+   ```
 
 4. **Run the admin seeder:**
 
